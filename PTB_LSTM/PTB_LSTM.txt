@@ -1,0 +1,10 @@
+Warning! No positional inputs found for a module, assuming batch size is 1.
+Model(
+  14.86 M, 100.000% Params, 5.2 GMac, 100.000% MACs, 
+  (embed1): Embedding(0, 0.000% Params, 0.0 Mac, 0.000% MACs, 10000, 700)
+  (drop2): Dropout(0, 0.000% Params, 0.0 Mac, 0.000% MACs, p=0.65, inplace=False)
+  (lstm3): LSTM(3.93 M, 26.415% Params, 1.38 GMac, 26.455% MACs, 700, 700, dropout=0.65)
+  (lstm4): LSTM(3.93 M, 26.415% Params, 1.38 GMac, 26.455% MACs, 700, 700)
+  (drop5): Dropout(0, 0.000% Params, 0.0 Mac, 0.000% MACs, p=0.65, inplace=False)
+  (fc6): Linear(7.01 M, 47.170% Params, 2.45 GMac, 47.090% MACs, in_features=700, out_features=10000, bias=True)
+)

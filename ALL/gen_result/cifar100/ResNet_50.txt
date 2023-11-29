@@ -1,0 +1,13 @@
+Gen: ResNet_50 cifar100
+Namespace(adjust=True, dataset='cifar100', freeze=False, model='ResNet_50', multi_label_num=10, multi_label_prob=0.4, no_DM=True, noise_scale=1.0, randemb=False)
+Test Result:
+	Teacher Accuray: 77.220000
+Train Result:
+	Gen acc: 100.000000
+	Time: 425.48s
+Adjust Result:
+	Iters: 179
+	Gen  acc: 99.218750
+	FGSM acc: 30.039062 -- 21.770000(Testloader)
+	PGD  acc: 5.273438 -- 4.580000(Testloader)
+	Time: 2697.18s

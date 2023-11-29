@@ -1,0 +1,13 @@
+Gen: ResNet_152 cifar10
+Namespace(adjust=True, dataset='cifar10', freeze=False, model='ResNet_152', multi_label_num=2, multi_label_prob=0.4, no_DM=True, noise_scale=1.0, randemb=False)
+Test Result:
+	Teacher Accuray: 94.430000
+Train Result:
+	Gen acc: 99.980469
+	Time: 983.17s
+Adjust Result:
+	Iters: 1
+	Gen  acc: 99.921875
+	FGSM acc: 49.414062 -- 44.340000(Testloader)
+	PGD  acc: 12.500000 -- 10.240000(Testloader)
+	Time: 221.71s

@@ -1,0 +1,1 @@
+cat $(ls -1 ret_one/$1/*.out | sort -n -t - -k 2 | tail -n 1)

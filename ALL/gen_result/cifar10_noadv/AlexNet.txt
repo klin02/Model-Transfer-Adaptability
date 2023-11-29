@@ -1,0 +1,13 @@
+Gen: AlexNet cifar10
+Namespace(dataset='cifar10', freeze=False, model='AlexNet', multi_label_num=2, multi_label_prob=0.4, no_DM=True, noise_scale=1.0, randemb=False)
+Test Result:
+	Teacher Accuray: 88.640000
+Train Result:
+	Gen acc: 99.824219
+	Time: 44.96s
+Adjust Result:
+	Iters: 13
+	Gen  acc: 98.945312
+	FGSM acc: 43.828125 -- 45.340000(Testloader)
+	PGD  acc: 19.023438 -- 19.810000(Testloader)
+	Time: 19.30s

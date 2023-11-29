@@ -1,0 +1,13 @@
+Gen: MobileNetV2 cifar10
+Namespace(dataset='cifar10', freeze=False, model='MobileNetV2', multi_label_num=2, multi_label_prob=0.4, no_DM=True, noise_scale=1.0, randemb=False)
+Test Result:
+	Teacher Accuray: 90.270000
+Train Result:
+	Gen acc: 99.957031
+	Time: 246.35s
+Adjust Result:
+	Iters: 2
+	Gen  acc: 80.976562
+	FGSM acc: 37.890625 -- 40.190000(Testloader)
+	PGD  acc: 3.320312 -- 5.590000(Testloader)
+	Time: 39.31s

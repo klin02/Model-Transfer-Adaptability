@@ -1,0 +1,13 @@
+Gen: AlexNet_BN cifar100
+Namespace(adjust=True, dataset='cifar100', freeze=False, model='AlexNet_BN', multi_label_num=10, multi_label_prob=0.4, no_DM=True, noise_scale=1.0, randemb=False)
+Test Result:
+	Teacher Accuray: 66.310000
+Train Result:
+	Gen acc: 99.984375
+	Time: 59.13s
+Adjust Result:
+	Iters: 32
+	Gen  acc: 68.007812
+	FGSM acc: 61.367188 -- 21.380000(Testloader)
+	PGD  acc: 6.718750 -- 6.720000(Testloader)
+	Time: 51.86s

@@ -1,0 +1,13 @@
+Gen: VGG_19 cifar10
+Namespace(dataset='cifar10', freeze=False, model='VGG_19', multi_label_num=2, multi_label_prob=0.4, no_DM=True, noise_scale=1.0, randemb=False)
+Test Result:
+	Teacher Accuray: 93.030000
+Train Result:
+	Gen acc: 99.941406
+	Time: 147.04s
+Adjust Result:
+	Iters: 21
+	Gen  acc: 97.343750
+	FGSM acc: 49.375000 -- 50.580000(Testloader)
+	PGD  acc: 14.687500 -- 16.890000(Testloader)
+	Time: 89.95s

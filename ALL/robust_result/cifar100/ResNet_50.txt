@@ -1,0 +1,4 @@
+ResNet_50 cifar100
+Title     Org_acc     Org_gen_acc     FGSM_acc     FGSM_gen_acc     PGD_acc     PGD_gen_acc     Time
+Full      77.220000     99.992188     21.840000     70.609375     4.630000     32.945312     134.37s
+INT_2     1.000000     0.968750     1.000000     0.968750     1.000000     0.968750     271.30s

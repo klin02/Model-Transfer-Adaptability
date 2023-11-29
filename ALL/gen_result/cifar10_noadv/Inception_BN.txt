@@ -1,0 +1,13 @@
+Gen: Inception_BN cifar10
+Namespace(dataset='cifar10', freeze=False, model='Inception_BN', multi_label_num=2, multi_label_prob=0.4, no_DM=True, noise_scale=1.0, randemb=False)
+Test Result:
+	Teacher Accuray: 94.830000
+Train Result:
+	Gen acc: 99.976562
+	Time: 430.90s
+Adjust Result:
+	Iters: 1
+	Gen  acc: 94.375000
+	FGSM acc: 45.625000 -- 42.760000(Testloader)
+	PGD  acc: 5.976562 -- 7.210000(Testloader)
+	Time: 102.60s
